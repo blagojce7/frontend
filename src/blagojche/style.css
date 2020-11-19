@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*  FONT 
+font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+*/ 
+
+.home {
+    background-size: cover;
+    background-image: url('../blagojche/images/homebackground.jpg');
+    height: 900px;
+}
+
+/* navigation menu */
+.home .nav-menu {
+    list-style: none;
+    padding-top: 50px;
+}
+.home .nav-menu ul {
+    float: right;
+    margin-right: 320px;
+}
+.home .nav-menu ul li {
+    display: inline-block;
+}
+.home .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #14bf98;
+    border-radius: 8px;
+    background: #14bf98;
+    padding: 5px;
+    margin-left: 10px;
+    font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+    font-weight: 100;
+}
+.home .nav-menu ul li a:hover {
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    background-color: #14bf98;
+}
+
+/* home section */ 
+.home .hometext {
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+  }
+  .home .hometext .courses h1 {
+    font: 700 3.5rem/4rem "Montserrat", sans-serif;
+  }
+  .home .hometext .homedescription p {
+    margin-bottom: 2rem;
+    font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
+  }
+  /* BUTTON HOME */
+  .home .hometext .homebutton {
+    margin-top: 40px;
+  }
+  .home .hometext .homebutton a {
+    border: 1px solid #14bf98;
+    background-color: #14bf98;
+    padding: 1rem 2.125rem 1rem 2.125rem;
+    border-radius: 8px;
+    font: 700 0.75rem/0 "Montserrat", sans-serif;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+  }
+  .home .hometext .homebutton a:hover {
+    background-color: transparent;
+    transition: 0.3s;
+  }
+
+  /* info section */
+
+.infosection {
+    background-color: #ECECEC;
+}
+.infosection .infotext .courses {
+    font: 700 1rem/1.75rem "Open Sans", sans-serif;
+    color: #14bf98;
+}
+.infosection .infotext {
+    text-align: center;
+    padding-top: 60px;
+    font: 700 1.2rem/2.125rem "Open Sans", sans-serif;
+}
+.row{
+  height: 550px;
+}
+
+.allrows  {
+  text-align: center;
+  margin-top: 40px;
+  height: 700px;
+  
+}
+.allrows img {
+  padding: 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid  #ebe8e8;
+  background-color: white;
+  width: 350px;
+  height: 200px;
+  -webkit-box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+  box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+  
+}
+.allrows .allrowsbody {
+  padding: 2.25rem 2rem 2.125rem 2rem;
+  border: 1px solid #ebe8e8;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.856);
+  -webkit-box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+  box-shadow: 7px 9px 9px 1px rgba(0,0,0,0.45);
+}
+.allrows .allrowsbody i {
+  color: #14bf98;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.allrows .allrowsbody h3 {
+  font: 700 1.2rem/2.125rem "Open Sans", sans-serif;
+}
+.allrows .allrowsbody .price {
+  font-weight: bold;
+}
+.allrows .allrowsbody .price span {
+  color: #14bf98;
+}
+.allrows .allrowsbody .button {
+
+  text-align: center;
+}
+.allrows .allrowsbody .btn-solid-reg {
+  display: inline-block;
+	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+	border: 0.125rem solid #14bf98;
+	border-radius: 0.25rem;
+	background-color: #14bf98;
+	font: 700 0.75rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+  transition: all 0.2s;
+  color: white;
+}
+.allrows .allrowsbody .btn-solid-reg:hover {
+  background-color: white;
+  color: #14bf98;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  height: 100px;
+}

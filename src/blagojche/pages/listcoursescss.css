@@ -1,0 +1,91 @@
+h3 {
+    font: 700 2rem/1.2rem "Open Sans", sans-serif;
+}
+a {
+    font: 700 1rem/1.75rem "Open Sans", sans-serif;
+}
+body {
+   /* background-color: rgb(218, 216, 216); */
+   background-image: url('../images/homebackground.jpg');
+   background-size: cover;
+}
+
+/* LIST COURSES I KUPCETO */
+.listcourses {
+    color: #14bf98;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.button {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 460px;
+}
+.button a {
+      padding: 0.7rem 1rem 0.7rem 1rem;
+      border: 0.125rem solid #14bf98;
+      border-radius: 0.5rem;
+      background-color: #14bf98;
+      font: 700 0.75rem/0 "Open Sans", sans-serif;
+      text-decoration: none;
+        transition: all 0.2s;
+        color: white;
+  }
+  a:hover {
+    background-color:transparent;
+  }
+
+/* TABELA */
+
+.table{
+    text-align: center;
+    margin-top: 60px;
+    max-width: 1000px;
+    background-color: #242424;
+    color: white;
+    font: 700 0.8rem/1.2rem "Open Sans", sans-serif;
+}
+.table tr th {
+    background-color: #242424;
+    height: 50px;
+    vertical-align: middle;
+}
+.table td, .table th {
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.table tr td {
+    vertical-align: middle;
+}
+.table tr td img {
+    max-width: 60px;
+}
+.table tr td a {
+    display: block;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+.table .delete {
+    border: 1px solid #ba473a;
+    background-color: #ba473a;
+    color: white;
+    text-decoration: none;
+    border-bottom-right-radius: 50%;
+}
+.table .delete:hover {
+    background-color: transparent;
+}
+.table .edit {
+    border: 1px solid #D1A31F;
+    background-color:#D1A31F;
+    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    border-bottom-right-radius: 50%;
+}
+.table .edit:hover {
+    background-color: transparent;
+    color: white;
+}

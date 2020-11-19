@@ -1,0 +1,86 @@
+GET http://localhost:8080/api/courses
+
+
+###
+POST http://localhost:8080/api/instructor
+Content-Type: application/json
+
+{
+    
+    "name": "name",
+    "surname": "surname",
+    "email": "mail@mail.com",
+    "password": "password",
+    "address": "address",
+    "description": "desc"
+  }
+###
+POST http://localhost:8080/api/person
+Content-Type: application/json
+
+{
+
+  "name": "name2",
+  "surname": "surname",
+  "address": "address",
+  "email": "email",
+  "password": "password",
+  "roles": [],
+  "shoppingCart": null
+}
+
+###
+POST  http://localhost:8080/api/courses
+Content-Type: application/json
+ 
+ {
+    
+    "name": "vel77",
+    "description": "Aliquam erat volutpat. In congue.",
+    "image": null,
+    "price": 823
+    # "category": {
+    #   "id": 1,
+    #   "name": "in",
+    #   "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+    # },
+    # "instructor": {
+    #   "id": 1,
+    #   "name": "Debby",
+    #   "surname": "Rasor",
+    #   "email": "drasor0@theguardian.com",
+    #   "password": "gvOX5IqnUam",
+    #   "address": "62923 Oneill Plaza",
+    #   "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+    #   ,"shoppingCarts": []
+    # }
+  }
+### 
+DELETE http://localhost:8080/api/courses/20
+
+###
+PUT http://localhost:8080/api/courses/3
+Content-Type: application/json
+
+{
+    "id" : 3,
+    "name": "Smeneto",
+    "description": "Aliquam erat volutpat. In congue.",
+    "image": null,
+    "price": 823,
+    "category": {
+      "id": 1,
+      "name": "in",
+      "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+    },
+    "instructor": {
+      "id": 1,
+      "name": "Debby",
+      "surname": "Rasor",
+      "email": "drasor0@theguardian.com",
+      "password": "gvOX5IqnUam",
+      "address": "62923 Oneill Plaza",
+      "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+      ,"shoppingCarts": []
+    }
+}

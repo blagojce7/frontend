@@ -1,0 +1,110 @@
+.all {
+    margin-top: 220px;
+    vertical-align: middle;
+}
+body {
+    background-image: url('../images/addcoursebackground.jpg');
+    background-size: cover;
+}
+
+#slikataKajADD{
+    background-image: url('../images/homebackground.jpg');
+}
+
+.row {
+    
+    height: 470px;
+    -webkit-box-shadow: 16px 13px 13px 2px rgba(0,0,0,0.78);
+-moz-box-shadow: 16px 13px 13px 2px rgba(0,0,0,0.78);
+box-shadow: 16px 13px 13px 2px rgba(0,0,0,0.78);
+}
+.col-md-5 {
+    padding: 0;
+}
+.col-md-5 img {
+    width: 100%;
+    height: 470px;
+
+}
+
+.all h4 {
+    text-align: center;
+    margin-top: 20px;
+    font: 700 0.75rem/0.7rem "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #14bf98;
+}
+
+.col-md-7 {
+    background-color: rgb(228, 227, 227);
+    
+}
+.all .input {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.all .input form input {
+    vertical-align: middle;
+}
+#element{
+    width: 100px;
+    text-align: end;
+}
+select {
+    margin-top: 12px;
+    max-width: 60%;
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(27%, 0) !important;
+    
+}
+
+/* button save  */
+
+.all .buttonsave {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.all .buttonsave a {
+    display: inline-block;
+	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+	border: 0.125rem solid #14bf98;
+	border-radius: 0.25rem;
+	background-color: #14bf98;
+	font: 700 0.75rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+  transition: all 0.2s;
+  color: white;
+}
+.all .buttonsave a:hover{
+    background-color: transparent;
+  color: white;
+}
+
+#inputs{
+    margin-left: 5px;
+}
+
+#buttonsave {
+    margin-left: 110px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+#buttonsave  {
+    display: inline-block;
+	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
+	border: 0.125rem solid #14bf98;
+	border-radius: 0.25rem;
+	background-color: #14bf98;
+	font: 700 0.75rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+  transition: all 0.2s;
+  color: white;
+}
+#buttonsave a:hover{
+    background-color: transparent;
+  color: white;
+}
